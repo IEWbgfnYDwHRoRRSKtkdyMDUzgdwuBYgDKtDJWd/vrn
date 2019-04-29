@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # Some values you may adjust
-INPUT="examples/"            # Place to find input images
-OUTPUT="output/"             # Place to dump raw volumes
-VRN_MODEL="vrn-unguided.t7"  # Reconstruction model
+INPUT="/content/vrn/examples"            # Place to find input images
+OUTPUT="/content/vrn/output/"             # Place to dump raw volumes
+VRN_MODEL="/content/vrn/vrn-unguided.t7"  # Reconstruction model
 CUDA_VISIBLE_DEVICES=0       # GPU number
 
 ######################################################################
